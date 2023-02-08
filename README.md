@@ -1,6 +1,8 @@
-# Nostr Web Server
+# Nostr Web Server + Client
 
-This is a proof of concept to show how to build a multi platform self contained web server running Snort. The exact procedure can be applied to every other client side web application, ex. Iris, Hamstr, etc.
+This is a proof of concept to show how to build a self-contained web server running a Nostr web client. The script is multi platform (Linux, macOS and Windows). The repo contains a [Snort.social](https://github.com/v0l/snort) snapshot (v. 2023-02-08) as an example but the exact procedure can be applied to every other web clients: Iris, Hamstr, etc.
+
+When the compiled app is executed a web server starts listening on port 8080 and the default web browser is opened to localhost:8080.
 
 ## 1. Install go
 Follow the instructions at https://github.com/golang/go
@@ -26,4 +28,6 @@ GOOS=linux GOARCH=amd64 go build -o nostr-webserver-linux-amd64 nostr-webserver.
 
 ```
 
-When the compiled app is executed a web server starts listening on port 8080 and the default web browser is opened to localhost:8080.
+## Releases
+
+Under /release you can find the Linux, macOS and Windows executables for Snort (2023-02-08).

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e30b0c7f.css",
+    "main.js": "/static/js/main.84a40c77.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/nostrich.webp": "/static/media/nostrich.1cc87fd8db25937e4671.webp",
+    "index.html": "/index.html",
+    "main.e30b0c7f.css.map": "/static/css/main.e30b0c7f.css.map",
+    "main.84a40c77.js.map": "/static/js/main.84a40c77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e30b0c7f.css",
+    "static/js/main.84a40c77.js"
+  ]
+}
